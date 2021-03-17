@@ -21,3 +21,28 @@ header {
 header > :first-child {
   margin-right: auto;
 }
+
+main {
+  display: flex;
+  justify-content: center;
+}
+
+.left-box {
+  background-color: lightgreen;
+  width: 300px;
+  height: 490px;
+}
+.right-box {
+  background-color: green;
+  max-width: 700px;
+  padding: 20px;
+  flex-grow: 1;
+  display: flex;
+  flex-wrap: wrap;
+}
+.box {
+  background-color: yellow;
+  flex-basis: 200px;
+  height: 130px;
+  margin: 10px;
+}
